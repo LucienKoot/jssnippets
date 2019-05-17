@@ -189,5 +189,43 @@ undefined
 alert (33*33);
 undefined
 
+var yourNameIs = "Henk de Jong";
+undefined
+alert (yourNameIs);
+undefined
+yourNameIs Jannie
+yourNameIs Jannie
+VM667:1 Uncaught SyntaxError: Unexpected identifier
+VM668:1 Uncaught SyntaxError: Unexpected identifier
+yourNameIs = "Harry de Oude";
+"Harry de Oude"
+alert (yourNameIs);
+undefined
+var yourNameIs = "Henk de Jong";
+undefined
+var yourScore = 30;
+undefined
+Alert(Ḧallo, " + yourNameIs + ", your score is: "+ yourScore);
+VM851:1 Uncaught SyntaxError: missing ) after argument list
+Alert("Ḧallo, " + yourNameIs + ", your score is: "+ yourScore);
+VM856:1 Uncaught ReferenceError: Alert is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM856:1
+Alert("Ḧallo, " + yourNameIs + ", your score is: " + yourScore);
+VM860:1 Uncaught ReferenceError: Alert is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM860:1
+var yourNameIs = "Henk de Jong";
+undefined
+var yourScore = 30;
+undefined
+Alert("Ḧallo, " + yourNameIs + ". your score is: " + yourScore);
+VM886:1 Uncaught ReferenceError: Alert is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM886:1
+alert("Ḧallo, winnaar" + yourNameIs + ", your score is: " + yourScore);
+
+
+
 
 
