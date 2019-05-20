@@ -226,6 +226,55 @@ VM886:1 Uncaught ReferenceError: Alert is not defined
 alert("Ḧallo, winnaar" + yourNameIs + ", your score is: " + yourScore);
 
 
+blz 47
 
+"var aanNaam = "your name";
+undefined
+var vanNaam = "Het instituut";
+undefined
+var basisBrief = "Hierbij nodigen wij u uit voor de bijeenkomst, 26 oktober 2020. Het betreft uw ruimtevakantie naar Mars, vergeet niet uw slaapzak mee te nemen /n Gegroet.";
+undefined
+document.write ("Beste " + aanNaam + ", <br><br>);
+VM924:1 Uncaught SyntaxError: Invalid or unexpected token
+var aanNaam = "Reiziger, ";
+undefined
+var vanNaam = "Het instituut";
+undefined
+var basisBrief = "Hierbij nodigen wij u uit voor de bijeenkomst, 26 oktober 2020. Het betreft uw ruimtevakantie naar Mars, vergeet niet uw slaapzak mee te nemen.";
+undefined
+document.write ("Beste " + aanNaam + "<br>");
+undefined
+document.write(basisBrief = "<br>");
+undefined
+document.write (basisBrief + ",br>");
+undefined
+document.write (basisBrief + );
+VM1315:1 Uncaught SyntaxError: Unexpected token )
+document.write (basisBrief);
+undefined
+document.write (vanNaam);
+undefined
+document.write (basisBrief);
+undefined
+var basisBrief = "Hierbij nodigen wij u uit voor de bijeenkomst, 26 oktober 2020. Het betreft uw ruimtevakantie naar Mars, vergeet niet uw slaapzak mee te nemen.";
+undefined
+document.write (basisBrief);
+undefined
+document.write (aanNaam + "reiziger, " + basisBrief + vanNaam);
+undefined
+var van
+undefined
+var vanNaam = "Het instituut.";
+undefined
+document.write (aanNaam + " reiziger, " + "<br>" + basisBrief + "<br>" + vanNaam);
+undefined
+
+nu is het goed
+var vanNaam = "Het instituut";
+undefined
+var aanNaam = "Reiziger, ";
+undefined
+document.write ("Beste " + aanNaam + "<br>" + basisBrief + "<br>" + vanNaam);
+undefined
 
 
