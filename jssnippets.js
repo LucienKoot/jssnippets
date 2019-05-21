@@ -276,5 +276,9 @@ var aanNaam = "Reiziger, ";
 undefined
 document.write ("Beste " + aanNaam + "<br>" + basisBrief + "<br>" + vanNaam);
 undefined
+*/
+/*groet = "goedenmiddag!"; document.write(groet);*/
+
+htm
 
 
