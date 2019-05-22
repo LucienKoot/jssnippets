@@ -290,5 +290,12 @@ while (tel <= 10)
 tel++
 } 
 
+// if
+
+getal = 1
+if (getal < 2) document.write("kleiner");
+
+
+
 
 
