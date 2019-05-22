@@ -279,6 +279,16 @@ undefined
 */
 /*groet = "goedenmiddag!"; document.write(groet);*/
 
-htm
+for (tel = 1; tel <= 100; tel++)
+{
+document.write("100 x kopieer")
+}
+
+tel = 1
+while (tel <= 10)
+{ document.write("Ik zal...")
+tel++
+} 
+
 
 
