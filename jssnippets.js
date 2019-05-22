@@ -301,18 +301,28 @@ tel = 1
 
 //if else oefening
 
-leeftijd = 13
-if (leeftijd < 12)
+// leeftijd = 13
+// if (leeftijd < 12)
+// {
+// toegangsprijs = 5
+// duiken = false
+// }
+// else
+// {
+// toegangsprijs = 10
+// duiken = true
+// } 
+// --> true.
+
+//FUNCTIES
+
+function test()
 {
-toegangsprijs = 5
-duiken = false
+    document.write("test")
+    return 123
 }
-else
-{
-toegangsprijs = 10
-duiken = true
-} 
---> true.
+
+
 
 
 
