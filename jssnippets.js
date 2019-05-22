@@ -279,23 +279,40 @@ undefined
 */
 /*groet = "goedenmiddag!"; document.write(groet);*/
 
-for (tel = 1; tel <= 100; tel++)
-{
-document.write("100 x kopieer")
-}
+// for (tel = 1; tel <= 100; tel++)
+// {
+// document.write("100 x kopieer")
+// }
+
+// tel = 1
+// while (tel <= 10)
+// { document.write("Ik zal...")
+// tel++
+// } 
+
+// // if
+
+// getal = 1
+// if (getal < 2) document.write("kleiner");
 
 tel = 1
-while (tel <= 10)
-{ document.write("Ik zal...")
-tel++
+1
+// 
+
+//if else oefening
+
+leeftijd = 13
+if (leeftijd < 12)
+{
+toegangsprijs = 5
+duiken = false
+}
+else
+{
+toegangsprijs = 10
+duiken = true
 } 
-
-// if
-
-getal = 1
-if (getal < 2) document.write("kleiner");
-
-
+--> true.
 
 
 
