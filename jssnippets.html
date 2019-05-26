@@ -115,29 +115,33 @@ alert("Goedenmorgen " + naam + " \nik ben " + (51 - leeftijd) + " jaartjes ouder
   var gebruikersnaam = vraagNaam;
   document.write("U bent ingelogd als: " + vraagNaam());
   
-  
-  
-  
     document.write("<br>"); -->
+<!-- 
+    // var spamYou = prompt("Wilt u onze nieuwsbrief ontvangen?", "Ja, voor 3 maanden");
 
+    function telOp(a, b, c)
+    {
+      return a + b + c
+    }
+    document.write(telOp (1, 2, 3));
+    document.write("<br>")
+    document.write(telOp(44, 4, 2)); -->
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="nl" lang="nl">
  <head>
-  <title>Fucties parameters oef.: 3 (hoofdstuk 5)</title>
+  <title>Fucties parameters oef.: 5 (hoofdstuk 5)</title>
   <script type="text/javascript">
-
-
-
-// var spamYou = prompt("Wilt u onze nieuwsbrief ontvangen?", "Ja, voor 3 maanden");
-
-function telOp(a, b, c)
+function product()
 {
-  return a + b + c
+    var a = prompt("Geef het eerste getal op", 0); 
+    var b = prompt("Geef het tweede getal op", a); 
+    alert(a*b);                                    
 }
-document.write(telOp (1, 2, 3));
-document.write("<br>")
-document.write(telOp(44, 4, 2));
+ 
+product();
+product();
+product();
 
   </script>
  </head>
