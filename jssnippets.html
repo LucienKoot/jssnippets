@@ -168,13 +168,13 @@ welkomPersoneel(); -->
     {
       alert("We zijn net zo lang");
     } -->
-    <!-- var a = 4;
+<!-- var a = 4;
     if (a==4);
     {
       var b = 33;
 alert(a + b);
     } -->
-    <!-- var myAge = 40;
+<!-- var myAge = 40;
     var age = prompt("Wat is jouw leeftijd?");
     if(age<0)
     {
@@ -193,7 +193,7 @@ alert(a + b);
       alert("Oh, je bent maar " + (myAge - age) + " jaartjes ouder...");
     }
  -->
- <!-- if(confirm("Naam invoeren!!"))
+<!-- if(confirm("Naam invoeren!!"))
 {
   var name = prompt("Naam alstublieft:", "");
   alert('Goedendag arbeider ' + name);
@@ -203,19 +203,7 @@ else
   alert('Voer nou die naam in');
 } -->
 
-
-
-
-<!DOCTYPE html
-  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="nl" lang="nl">
-
-<head>
-  <title>switch oefening 12 (hoofdstuk 6)</title>
-  <script type="text/javascript">
-
-//switch statement
-var n = prompt ("geef een getal van tussen 0 en 2:", "0");
+<!-- var n = prompt ("geef een getal van tussen 0 en 2:", "0");
 if(n==0)
 {
   alert("nulll");
@@ -227,8 +215,69 @@ else if (n==1)
 else
 {
   alert("ZWEI");
-}
+} -->
 
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="nl" lang="nl">
+
+<head>
+  <title>switch oefening 14 (hoofdstuk 6)</title>
+  <script type="text/javascript">
+
+    //switch statement
+
+    var n = parseInt(prompt("Geef een getal van 0 - 10:", "0"));
+    switch (n) {
+      case 0:
+        alert("null");
+        break;
+
+      case 1:
+        alert("einz");
+        break;
+
+      case 2:
+        alert("zwei");
+        break;
+
+      case 3:
+        alert("drei");
+        break;
+
+      case 4:
+        alert("vierrrr");
+        break;
+
+      case 5:
+        alert("funf");
+        break;
+
+      case 6:
+        alert("sechs");
+        break;
+
+      case 7:
+        alert("sieben");
+        break;
+
+      case 8:
+        alert("achtung");
+        break;
+
+      case 9:
+        alert("neuf");
+        break;
+
+      case 10:
+        alert("teen");
+        break;
+
+      default:
+        alert("Geen geldig getal ingevoerd!");
+        break;
+    }
 
 
 
